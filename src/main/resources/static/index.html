@@ -29,11 +29,11 @@
             </div>
             <div class="form-gruop">
                 <label for="bilMerke"> Bil Merke</label>
-                <input type="text" id="bilMerke" class="form-control">
+                <div id="bilMerke" class="dropdown"></div>
             </div>
             <div class="form-gruop">
-                <label for="biltype"> Biltype</label>
-                <input type="text" id="biltype" class="form-control">
+                <label for="biltypeList"> Biltype</label>
+                <div id="biltypeList" class="dropdown"></div>
             </div>
         </form>
         <br>
@@ -42,7 +42,7 @@
     <div class="col-md-8">
         <h3>Alle Bilene:</h3>
         <div>
-            <table class="table-hover" id="resultat"></table>
+            <table class="table table-hover" id="resultat"></table>
         </div>
         <br>
         <button class="btn btn-danger" onclick="slettAlle()">Slett Alle</button>
